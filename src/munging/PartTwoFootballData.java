@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class PartTwoFootballData {
 
 	public static String getSmallestGoalDifference() {
-		// TODO: Print the name of the team with the smallest difference in ‘for’ and ‘against’ goals.
 		InputStream input = PartTwoFootballData.class.getResourceAsStream("football.dat");
 		Scanner scanner = new Scanner(input);
 		

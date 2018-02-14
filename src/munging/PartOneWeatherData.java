@@ -28,8 +28,6 @@ public class PartOneWeatherData {
 			if (!currentDay.equals("mo")) {				
 				int currentMax = sanitizeInput(lineArray.get(2));
 				int currentMin = sanitizeInput(lineArray.get(3));
-				
-				System.out.println("Current Line Data: " + currentDay + " " + currentMax + " " +  currentMin);
 				int currentSpread = currentMax - currentMin;
 				
 				if (currentSpread > largestSpread) {

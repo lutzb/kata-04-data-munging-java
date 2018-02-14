@@ -24,8 +24,6 @@ public class PartTwoFootballData {
 			if (lineArray.size() > 2) {				
 				int currentGoalsFor = Integer.parseInt(lineArray.get(7));
 				int currentGoalsAgainst = Integer.parseInt(lineArray.get(9));
-				
-				System.out.println(currentGoalsFor + " " + currentGoalsAgainst);
 				int currentGoalDifference = Math.abs(currentGoalsFor - currentGoalsAgainst);
 				
 				if (currentGoalDifference < smallestGoalDifference) {

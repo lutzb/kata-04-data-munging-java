@@ -11,7 +11,7 @@ class PartTwoFootballDataTest {
 	@Test
 	void test() {
 		String team = PartTwoFootballData.getSmallestGoalDifference();
-		assertEquals(team, "Aston_Villa");
+		assertEquals("Aston_Villa", team);
 	}
 
 }
